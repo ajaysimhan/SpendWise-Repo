@@ -25,6 +25,8 @@ public class ClassifierMain {
 		classifier.load(transactionList, transactionCategory);
 		System.out.println(classifier.wasteTotal);
 		System.out.println(classifier.usefulTotal);
+		
+		System.out.println("test comment");
 	}
 	
 	
